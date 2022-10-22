@@ -26,26 +26,6 @@ def get_topic_contents(dirpath):
     return contents
 
 
-def put_html_header():
-    '''write a header for an html doc to stdout'''
-    print('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" ' +
-          '"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">')
-    print('<html>')
-    # FIXME this should not be hardcoded
-    print('<body bgcolor="#ffffff">')
-
-
-def put_html_footer():
-    '''write a footer for an html doc to stdout'''
-    print('</body>')
-    print('</html>')
-
-
-def put_intro(content):
-    '''write the intro text for the q & a doc to stdout'''
-    print(content)
-
-
 def put_topic_start(topic):
     '''write the topic section header with markup to stdout'''
     # FIXME this should not be hardcoded
@@ -76,7 +56,7 @@ def usage(message):
         sys.stderr.write("\n")
     usage_message = """
 Usage: q_and_a.py [--dir <path>] [--template <path>] [--intro <path>]
-                   --help
+                  [--footer <path>] |  --help
 
 This script takes a little pile of topics and their questions, answers, reading material
 links and excerises, and turns them into one html page for viewing.
@@ -88,8 +68,11 @@ Arguments:
                      and so on will be inserted
                      default: ./QandA.templ
   --intro     (-i):  path to a file of introductory text, html formtted, which will be
-                     prepended to the topic questions
-                     default: ./Intro.html
+                     written before the topic questions
+                     default: ./html/Intro.html
+  --footer    (-f):  path to a file containing the html footer which will be written
+                     after the topic questions
+                     default: ./html/Footer.html
   --help      (-h):  display this help message
 
 Setup:
@@ -104,12 +87,28 @@ Setup:
     sys.exit(1)
 
 
+def validate_args(args, remainder):
+    '''check that the args we have are good, whine otherwise'''
+    if len(remainder) > 0:
+        usage("Unknown option(s) specified: <%s>" % remainder[0])
+    if not os.path.exists(args['topicsdir']):
+        usage("topics dir specified does not exist or is inaccessible")
+    if not os.path.exists(args['intro']):
+        usage("intro html file specified does not exist or is inaccessible")
+    if not os.path.exists(args['footer']):
+        usage("footer html file specified does not exist or is inaccessible")
+    if not os.path.exists(args['template']):
+        usage("template file specified does not exist or is inaccessible")
+
+
 def get_args():
     '''get, validate and return args, overriding defaults as needed'''
-    args = {'template': 'QandA.templ', 'intro': 'Intro.html', 'topicsdir': 'topics'}
+    args = {'template': 'QandA.templ', 'footer': 'html/Footer.html',
+            'intro': 'html/Intro.html', 'topicsdir': 'topics'}
     try:
         (options, remainder) = getopt.gnu_getopt(
-            sys.argv[1:], "d:i:t:h", ["dir=", "intro=", "template=", "help"])
+            sys.argv[1:], "d:f:i:t:h", ["dir=", "intro=", "footer=",
+                                      "template=", "help"])
     except getopt.GetoptError as err:
         usage("Unknown option specified: " + str(err))
 
@@ -118,19 +117,14 @@ def get_args():
             args['topicsdir'] = val
         elif opt in ["-i", "--intro"]:
             args['intro'] = val
+        elif opt in ["-f", "--footer"]:
+            args['footer'] = val
         elif opt in ["-t", "--template"]:
             args['template'] = val
         elif opt in ["-h", "--help"]:
             usage("Help for this script")
 
-    if len(remainder) > 0:
-        usage("Unknown option(s) specified: <%s>" % remainder[0])
-    if not os.path.exists(args['topicsdir']):
-        usage("topics dir specified does not exist or is inaccessible")
-    if not os.path.exists(args['intro']):
-        usage("intro html file specified does not exist or is inaccessible")
-    if not os.path.exists(args['template']):
-        usage("template file specified does not exist or is inaccessible")
+    validate_args(args, remainder)
 
     return args
 
@@ -139,16 +133,19 @@ def do_main():
     '''entry point'''
     args = get_args()
     template = get_file_contents(args['template'])
-    intro = get_file_contents(args['intro'])
     topics = yaml.safe_load(get_topic_contents(args['topicsdir']))
-    put_html_header()
-    put_intro(intro)
+
+    intro = get_file_contents(args['intro'])
+    print(intro)
+
     for topic in topics:
         put_topic_start(topic)
         for entry in topics[topic]:
             put_entry(entry['entry'], template)
         put_topic_end()
-    put_html_footer()
+
+    footer = get_file_contents(args['footer'])
+    print(footer)
 
 
 if __name__ == '__main__':

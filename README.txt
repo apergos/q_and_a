@@ -11,18 +11,20 @@ To use this very basic script, do the following:
   of yor choosing, number it according to where you want it shown
   in the output
 * make an html template for displaying a topic and its entries;
-  you can use the default QandA.templ if you like
+  you can use the default html/QandA.templ if you like
 * create some intro html text that will go after the body tag and
-  before the topics in the output; the Intro.html is what I use with
+  before the topics in the output; html/Intro.html is what I use with
   the topics in the topics directory currently
-* run q_and_a.py -t path-to-template -i path-to-intro -d path-to-topicsdir > new-html-file.html
+* if you want a fancy hmtl footer, make one, otherwise there is html/Footer.html
+* run:
+    q_and_a.py -t path-to-template -i path-to-intro -d path-to-topicsdir \
+        -f path-to-footer> new-html-file.html
 * check that you like the results
 * profit
 
 Subject to change at my slightest whim.
 
-This really should not hardcode in things like the body bgcolor tag, and the start/end
-topic html. Yuck.
+This really should not hardcode in the start/end topic html. Yuck.
 
 
 
