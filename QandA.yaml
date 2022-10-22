@@ -1,0 +1,1331 @@
+DNS:
+ - entry:
+     question: What is DNS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a name server?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an A record, an AAA record, a CNAME? What is a domain, a hostname? What is
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a recursive nameserver?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is dnsmasq?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is /etc/hosts, /etc/resolv.conf?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is named, bind?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are nslookup, dig?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a subdomain?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a reverse lookup? What are zones, zone files?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Networking:
+ - entry:
+     question: What is a computer network?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is bandwidth?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a local area network?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a router, a switch, a hub?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a packet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an IP address? What is IPv4, IPv6? What is TCP? What is UDP? What is multicast?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are unicast, multicast?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are private IP addresses, public IP addresses? What is 127.0.0.1? What kind of IP
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a bridge, a vpn?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is BGP?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ping, traceroute?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ICMP?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a subnet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a MAC address?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a NIC?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Load Balancing:
+ - entry:
+     question: What is load balancing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LVS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is round robin, geolocation? What is MAXMIND?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+High Availability:
+ - entry:
+     question: What is HA? What is a SPOF?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Caching:
+ - entry:
+     question: What is caching?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is memcache?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are LRU, FIFO, LIFO?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ATS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is varnish?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are vcls?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a CDN?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the 'edge' as far as our production cluster?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Encryption:
+ - entry:
+     question: What is encryption?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is public key cryptography, symmetric key cryptography?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is GPG/PGP, the web of trust?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is X.509? What is HTTPS, TLS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is TLS termination? What is MITM?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LetsEncrypt?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Web Service:
+ - entry:
+     question: What is a web server? What is HTTP? What is keep-alive?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Apache? What is nginx?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a DocumentRoot?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a rewrite rule?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is CGI, FPM, php-fpm?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Databases:
+ - entry:
+     question: What is MySQL/Mariadb?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a relational database, a NOSQL database? What are
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a database table, a row, an index? What is a key,
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a select, a left join, an inner join? What is an
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a database schema? What is a create table?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can you show running queries?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can you show a table's schema?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a show explain, a show explain extended?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Memory Management:
+ - entry:
+     question: What is computer memory?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is swapping, a swap file or partition?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a memory "page" in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are memory addresses?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is virtual memory, resident memory, physical memory?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the OOM killer in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is malloc(), free() in POSIX?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the stack, the heap for a process?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a hard drive, an SSD?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Disks and Files:
+ - entry:
+     question: What is a disk array?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a RAID? What is RAID0, RAID1, RAID5, JBOD?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are striping, mirroring?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a RAID controller?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is buffered I/O?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are disk buffer caches in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are open(), read(), write(), seek(), close() in POSIX?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is blocking I/O, nonblocking I/O?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a read lock, a write lock, an advisory lock, an exclusive lock?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+MediaWiki:
+ - entry:
+     question: What is a wiki?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is wikitext?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a page, a revision, a slot?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a php module? What is a library? What is a MediaWiki maintenance script?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a MediaWiki extension?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the ParserFunctions extension?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the parser cache?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the BagOStuff?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LBFactory, LoadBalancer?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is etcdb? What is dbconfig? What are sections, groups?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is dependency injection?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is end to end testing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are unit tests?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is phpunit?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Production Server Configuration:
+ - entry:
+     question: What is puppet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are manifests?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is site.pp?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are roles, profiles, modules?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are puppet templates, resources, classes?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is PCC?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Deployment:
+ - entry:
+     question: What is scap?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the deployment host?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are mwdebug servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Zuul?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a "baseline" and why do we want to know what it is for any given app?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is logstash?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is deployment-prep ("beta")? What is OpenStack horizon? What are projects? What is WMCS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are groups 0, 1,2 wikis?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can we check the versions of MediaWiki in production?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the SAL?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is screen, tmux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Algorithms:
+ - entry:
+     question: What are hashes?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is md5, sha1? What are checksums?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a one-way or trapdoor function?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Process management:
+ - entry:
+     question: What is a kernel?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are processes? What are threads?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is user space, kernel space?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are parent, child, zombie processes? What is fork()?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a daemon process?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is foreground, background, job control?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is context switching?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are system calls?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are sockets?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are file descriptors?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is stdin, stdout, stderr? What are pipes?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are named sockets?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are signals? What is kill? What are -9, HUP, USR1, PIPE, ALRM?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Scaling and Performance:
+ - entry:
+     question: How can we measure cpu load, memory usage of a process?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is grafana?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is horizontal scaling, vertical scaling, sharding?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are distributed filesystems?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is HDFS, Hadoop?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is MapReduce?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Airflow?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are linux containers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are Docker, Kubernetes?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are pods?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are docker images, containers, a docker registry?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is rsync?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a kernel module? What is lsmod, modprobe, rmmod?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Reliability:
+ - entry:
+     question: What is an SLA, an SLO?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is icinga?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a cascading failure?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a DDOS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are cache-busting attacks?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a SYN flood, a DDOS amplification attack?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a botnet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is /var/log/messages, /var/log/syslog, rsyslogd, logrotate?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is systemd, a systemd unit, a systemd timer?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is initd?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Security:
+ - entry:
+     question: What is social engineering?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is phishing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is spam?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a CVE, a 0-day attack?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is pen testing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a cross-site scripting (XSS) vulnerability?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SQL injection?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a buffer overrun?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a threat matrix, risk assessment?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is malware?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a rootkit?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a dictionary attack? What is a salt?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a firewall?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ferm?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is iptables?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a pass phrase?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is entropy?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What contributes to a strong password, a weak one?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a password manager?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Authentication/Authorization:
+ - entry:
+     question: What is authentication? What is authorization?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LDAP?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SSO?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are user, group and other permissions in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are /etc/password, /etc/group in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are shadow password and group files in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is root, sudo, su?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SSH? What is an identity key?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ssh_known_hosts?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an ssh agent, key forwarding, an ssh tunnel?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Kerberos?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Filesystems:
+ - entry:
+     question: What is mount, umount? What are ext3, ext4?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is journaling, fsck?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is /etc/fstab?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is nfs? What is nfsd? What is an nfs server, client?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is stat()?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are atime, ctime, mtime?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an inode?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are hard links, symbolic links?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Linux commands:
+ - entry:
+     question: What are ls, cd, chown, chgrp, chdir, pwd?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the linux FHS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are /etc, /usr, /bin, /sbin, /lib?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are cat, mv, cp, more, less?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are environment variables?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the shell, what is bash?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is $PATH?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are positional arguments?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is tab completion? What is readline?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How do you redirect stdout, stderr, both at the command line?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are awk, sed, grep?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are curl, wget?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are head, tail, touch?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is lsof, tcpdump, netstat, tar?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are gzip/gzcat, bzip/bzcat?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are date, sort, uniq, wc?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are find, which, who, last, lastcomm?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is scp, man?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are du, df?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is dd?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are ps, top, free, uptime?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is diff?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are od, echo?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Package management:
+ - entry:
+     question: What is git, a pull request, upstream, merge, fetch?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is reset, soft reset, hard reset?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can one see existing branches, check out a new branch, switch to another?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is autoconf, automake, make?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is reprepro?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is apt, dpkg?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ldconfig?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Unix/Linux:
+ - entry:
+     question: What is unix, linux, POSIX?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is debian, ubuntu?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+FLOSS:
+ - entry:
+     question: What is free software, open source?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an open source license?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Creative Commons, the GPL, the LGPL, the Apache 2.0 license?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are the four freedoms of software?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the cathedral/bazaar model?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is public domain, fair use?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the open core model?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is freeware, shareware, proprietary software?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a derived work?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is patent trolling?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Documentation:
+ - entry:
+     question: What is www.mediawiki.org, wikitech.wikimedia.org, meta.wikimedia.org?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are infoboxes, section headers in wikitext?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the Visual Editor?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can one include bulleted lists, ordered lists in wikitext?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can one include links to the same wiki, to other wikis, to external sites?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can one use bold, italic, or monospaced text in wikitext?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is office.wikimedia.org?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are page namespaces?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are recent changes, page histories?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are watchists?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are ascii, unicode?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are wiki categories?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+
+Misc:
+ - entry:
+     question: What is xml?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Kiwix?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are wikidata entities?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is rdf, ttl?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is parsoid?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ElasticSearch, CirrusSearch?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is WDQS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are toolforge, jupyter notebooks, paws?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is yaml?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are event streams? What is the pub/sub model? What is Kafka, what are topics?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Sevenzip?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SWIFT? What is Ceph?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is serialization (in php or elsewhere)?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is gerrit, phabricator?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What datacenters do we have?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the naming scheme for our production servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the "management interface" of a server and when do we use it?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the naming scheme for our core mediawiki database servers, our external cluster db servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the naming scheme for production mediawiki maintenance hosts, our app servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are caching centers, POPs?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
