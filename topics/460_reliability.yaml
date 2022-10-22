@@ -1,0 +1,51 @@
+Reliability:
+ - entry:
+     question: What is an SLA, an SLO?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is icinga?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a cascading failure?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a DDOS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are cache-busting attacks?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a SYN flood, a DDOS amplification attack?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a botnet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is /var/log/messages, /var/log/syslog, rsyslogd, logrotate?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is systemd, a systemd unit, a systemd timer?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is initd?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

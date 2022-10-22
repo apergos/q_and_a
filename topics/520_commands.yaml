@@ -1,0 +1,116 @@
+Linux commands:
+ - entry:
+     question: What are ls, cd, chown, chgrp, chdir, pwd?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the linux FHS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are /etc, /usr, /bin, /sbin, /lib?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are cat, mv, cp, more, less?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are environment variables?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the shell, what is bash?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is $PATH?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are positional arguments?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is tab completion? What is readline?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How do you redirect stdout, stderr, both at the command line?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are awk, sed, grep?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are curl, wget?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are head, tail, touch?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is lsof, tcpdump, netstat, tar?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are gzip/gzcat, bzip/bzcat?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are date, sort, uniq, wc?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are find, which, who, last, lastcomm?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is scp, man?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are du, df?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is dd?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are ps, top, free, uptime?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is diff?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are od, echo?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

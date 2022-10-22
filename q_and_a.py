@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import os
 import yaml
 
 
@@ -7,6 +8,16 @@ def get_file_contents(path):
     with open(path, "r") as infile:
         text = infile.read()
         return text
+
+
+def get_topic_contents(dirpath):
+    '''read all files in the specified directory, in numerical
+    order, concatenating all the content and returning it'''
+    files = os.listdir(dirpath)
+    contents = ""
+    for topicfile in sorted(files):
+        contents += get_file_contents(os.path.join(dirpath, topicfile))
+    return contents
 
 
 def put_html_header():
@@ -52,7 +63,7 @@ def do_main():
     '''entry point'''
     template = get_file_contents('QandA.templ')
     intro = get_file_contents('Intro.html')
-    topics = yaml.safe_load(get_file_contents('QandA.yaml'))
+    topics = yaml.safe_load(get_topic_contents('topics'))
     put_html_header()
     put_intro(intro)
     for topic in topics:

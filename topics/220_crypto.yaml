@@ -1,0 +1,31 @@
+Encryption:
+ - entry:
+     question: What is encryption?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is public key cryptography, symmetric key cryptography?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is GPG/PGP, the web of trust?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is X.509? What is HTTPS, TLS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is TLS termination? What is MITM?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LetsEncrypt?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

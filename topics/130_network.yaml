@@ -1,0 +1,76 @@
+Networking:
+ - entry:
+     question: What is a computer network?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is bandwidth?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a local area network?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a router, a switch, a hub?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a packet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an IP address? What is IPv4, IPv6? What is TCP? What is UDP? What is multicast?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are unicast, multicast?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are private IP addresses, public IP addresses? What is 127.0.0.1? What kind of IP
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a bridge, a vpn?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is BGP?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ping, traceroute?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ICMP?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a subnet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a MAC address?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a NIC?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

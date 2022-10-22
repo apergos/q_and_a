@@ -1,0 +1,31 @@
+Production Server Configuration:
+ - entry:
+     question: What is puppet?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are manifests?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is site.pp?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are roles, profiles, modules?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are puppet templates, resources, classes?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is PCC?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

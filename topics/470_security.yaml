@@ -1,0 +1,96 @@
+Security:
+ - entry:
+     question: What is social engineering?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is phishing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is spam?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a CVE, a 0-day attack?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is pen testing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a cross-site scripting (XSS) vulnerability?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SQL injection?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a buffer overrun?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a threat matrix, risk assessment?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is malware?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a rootkit?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a dictionary attack? What is a salt?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a firewall?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ferm?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is iptables?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a pass phrase?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is entropy?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What contributes to a strong password, a weak one?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a password manager?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

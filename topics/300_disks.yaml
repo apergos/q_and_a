@@ -1,0 +1,46 @@
+Disks and Files:
+ - entry:
+     question: What is a disk array?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a RAID? What is RAID0, RAID1, RAID5, JBOD?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are striping, mirroring?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a RAID controller?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is buffered I/O?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are disk buffer caches in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are open(), read(), write(), seek(), close() in POSIX?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is blocking I/O, nonblocking I/O?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a read lock, a write lock, an advisory lock, an exclusive lock?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

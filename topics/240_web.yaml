@@ -1,0 +1,26 @@
+Web Service:
+ - entry:
+     question: What is a web server? What is HTTP? What is keep-alive?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Apache? What is nginx?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a DocumentRoot?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a rewrite rule?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is CGI, FPM, php-fpm?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

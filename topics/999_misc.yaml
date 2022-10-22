@@ -1,0 +1,101 @@
+Misc:
+ - entry:
+     question: What is xml?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Kiwix?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are wikidata entities?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is rdf, ttl?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is parsoid?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ElasticSearch, CirrusSearch?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is WDQS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are toolforge, jupyter notebooks, paws?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is yaml?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are event streams? What is the pub/sub model? What is Kafka, what are topics?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Sevenzip?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SWIFT? What is Ceph?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is serialization (in php or elsewhere)?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is gerrit, phabricator?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What datacenters do we have?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the naming scheme for our production servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the "management interface" of a server and when do we use it?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the naming scheme for our core mediawiki database servers, our external cluster db servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the naming scheme for production mediawiki maintenance hosts, our app servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are caching centers, POPs?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

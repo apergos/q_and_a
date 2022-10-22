@@ -2,17 +2,15 @@ What this is, how it works
 
 Right now you do the following:
 
-* add stuff to the entries in QansA.yaml
+* add stuff to the entries in topics/ directory, number it according to
+  where you want it showin in the output
 * run q_and_a.py > new-html-file.html
 * check that you like the results
 * profit
 
-Later we should:
+Should do: don't hardcode the topics dir path, the template filenames,
+te intro path. make 'em all defaults, fine. but allow user to specify
 
-separate each topic into its own file
-have a file that lists the topics we want in the order we want, by filename I guess
-yeah that's likely better.
-then read them all into one content and continue as we do
 
 
 

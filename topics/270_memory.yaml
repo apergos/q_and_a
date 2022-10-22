@@ -1,0 +1,46 @@
+Memory Management:
+ - entry:
+     question: What is computer memory?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is swapping, a swap file or partition?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a memory "page" in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are memory addresses?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is virtual memory, resident memory, physical memory?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the OOM killer in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is malloc(), free() in POSIX?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the stack, the heap for a process?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a hard drive, an SSD?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

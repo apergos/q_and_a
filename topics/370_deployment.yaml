@@ -1,0 +1,56 @@
+Deployment:
+ - entry:
+     question: What is scap?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the deployment host?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are mwdebug servers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Zuul?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a "baseline" and why do we want to know what it is for any given app?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is logstash?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is deployment-prep ("beta")? What is OpenStack horizon? What are projects? What is WMCS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are groups 0, 1,2 wikis?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can we check the versions of MediaWiki in production?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the SAL?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is screen, tmux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

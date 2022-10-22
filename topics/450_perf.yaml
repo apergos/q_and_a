@@ -1,0 +1,66 @@
+Scaling and Performance:
+ - entry:
+     question: How can we measure cpu load, memory usage of a process?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is grafana?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is horizontal scaling, vertical scaling, sharding?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are distributed filesystems?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is HDFS, Hadoop?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is MapReduce?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Airflow?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are linux containers?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are Docker, Kubernetes?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are pods?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are docker images, containers, a docker registry?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is rsync?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a kernel module? What is lsmod, modprobe, rmmod?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

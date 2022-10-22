@@ -1,0 +1,56 @@
+Authentication/Authorization:
+ - entry:
+     question: What is authentication? What is authorization?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LDAP?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SSO?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are user, group and other permissions in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are /etc/password, /etc/group in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are shadow password and group files in linux?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is root, sudo, su?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is SSH? What is an identity key?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ssh_known_hosts?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an ssh agent, key forwarding, an ssh tunnel?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is Kerberos?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

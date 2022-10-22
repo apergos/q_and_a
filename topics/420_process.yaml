@@ -1,0 +1,66 @@
+Process management:
+ - entry:
+     question: What is a kernel?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are processes? What are threads?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is user space, kernel space?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are parent, child, zombie processes? What is fork()?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a daemon process?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is foreground, background, job control?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is context switching?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are system calls?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are sockets?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are file descriptors?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is stdin, stdout, stderr? What are pipes?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are named sockets?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are signals? What is kill? What are -9, HUP, USR1, PIPE, ALRM?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

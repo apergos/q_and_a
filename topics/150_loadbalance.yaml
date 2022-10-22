@@ -1,0 +1,16 @@
+Load Balancing:
+ - entry:
+     question: What is load balancing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LVS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is round robin, geolocation? What is MAXMIND?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

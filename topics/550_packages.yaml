@@ -1,0 +1,36 @@
+Package management:
+ - entry:
+     question: What is git, a pull request, upstream, merge, fetch?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is reset, soft reset, hard reset?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can one see existing branches, check out a new branch, switch to another?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is autoconf, automake, make?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is reprepro?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is apt, dpkg?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is ldconfig?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

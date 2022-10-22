@@ -1,0 +1,41 @@
+Filesystems:
+ - entry:
+     question: What is mount, umount? What are ext3, ext4?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is journaling, fsck?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is /etc/fstab?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is nfs? What is nfsd? What is an nfs server, client?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is stat()?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are atime, ctime, mtime?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an inode?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are hard links, symbolic links?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

@@ -1,0 +1,71 @@
+MediaWiki:
+ - entry:
+     question: What is a wiki?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is wikitext?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a page, a revision, a slot?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a php module? What is a library? What is a MediaWiki maintenance script?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a MediaWiki extension?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the ParserFunctions extension?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the parser cache?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is the BagOStuff?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is LBFactory, LoadBalancer?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is etcdb? What is dbconfig? What are sections, groups?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is dependency injection?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is end to end testing?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are unit tests?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is phpunit?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

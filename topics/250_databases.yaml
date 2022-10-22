@@ -1,0 +1,41 @@
+Databases:
+ - entry:
+     question: What is MySQL/Mariadb?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a relational database, a NOSQL database? What are
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a database table, a row, an index? What is a key,
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a select, a left join, an inner join? What is an
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a database schema? What is a create table?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can you show running queries?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: How can you show a table's schema?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a show explain, a show explain extended?
+     answer: stuff
+     readings: stuff
+     exercises: stuff

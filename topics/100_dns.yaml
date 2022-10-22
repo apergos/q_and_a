@@ -1,0 +1,51 @@
+DNS:
+ - entry:
+     question: What is DNS?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a name server?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is an A record, an AAA record, a CNAME? What is a domain, a hostname? What is
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a recursive nameserver?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is dnsmasq?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is /etc/hosts, /etc/resolv.conf?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is named, bind?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What are nslookup, dig?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a subdomain?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
+ - entry:
+     question: What is a reverse lookup? What are zones, zone files?
+     answer: stuff
+     readings: stuff
+     exercises: stuff
