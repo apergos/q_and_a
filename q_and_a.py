@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+'''
+given a little directory with a topic, questions, answers etc
+and a formatting template for these, produce one page of html
+'''
 import os
 import yaml
 
@@ -22,7 +26,8 @@ def get_topic_contents(dirpath):
 
 def put_html_header():
     '''write a header for an html doc to stdout'''
-    print('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">')
+    print('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" ' +
+          '"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">')
     print('<html>')
     # FIXME this should not be hardcoded
     print('<body bgcolor="#ffffff">')
@@ -58,7 +63,7 @@ def put_entry(entry, templ):
                     "readings": entry['readings'],
                     "exercises": entry['exercises']})
 
-    
+
 def do_main():
     '''entry point'''
     template = get_file_contents('QandA.templ')
@@ -76,4 +81,3 @@ def do_main():
 
 if __name__ == '__main__':
     do_main()
-
