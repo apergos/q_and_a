@@ -4,6 +4,8 @@ given a little directory with a topic, questions, answers etc
 and a formatting template for these, produce one page of html
 '''
 import os
+import sys
+import getopt
 import yaml
 
 
@@ -64,11 +66,81 @@ def put_entry(entry, templ):
                     "exercises": entry['exercises']})
 
 
+def usage(message):
+    '''
+    display a helpful usage message with an optional
+    introductory message first
+    '''
+    if message is not None:
+        sys.stderr.write(message)
+        sys.stderr.write("\n")
+    usage_message = """
+Usage: q_and_a.py [--dir <path>] [--template <path>] [--intro <path>]
+                   --help
+
+This script takes a little pile of topics and their questions, answers, reading material
+links and excerises, and turns them into one html page for viewing.
+
+Arguments:
+  --dir       (-d):  directory where topic files are located
+                     default: ./topics
+  --tmeplate  (-t):  path to html template into which the text for each question, answer
+                     and so on will be inserted
+                     default: ./QandA.templ
+  --intro     (-i):  path to a file of introductory text, html formtted, which will be
+                     prepended to the topic questions
+                     default: ./Intro.html
+  --help      (-h):  display this help message
+
+Setup:
+  Make sure you have your topic files in the format given in the sample.yaml file
+  and that the file names are numbered in the order you would like them to appear
+  in the html output.
+
+  Any template you create for the output should have placeholders for the topic, question,
+  answer, readings and exercises keys for each set of entries.
+"""
+    sys.stderr.write(usage_message)
+    sys.exit(1)
+
+
+def get_args():
+    '''get, validate and return args, overriding defaults as needed'''
+    args = {'template': 'QandA.templ', 'intro': 'Intro.html', 'topicsdir': 'topics'}
+    try:
+        (options, remainder) = getopt.gnu_getopt(
+            sys.argv[1:], "d:i:t:h", ["dir=", "intro=", "template=", "help"])
+    except getopt.GetoptError as err:
+        usage("Unknown option specified: " + str(err))
+
+    for (opt, val) in options:
+        if opt in ["-d", "--dir"]:
+            args['topicsdir'] = val
+        elif opt in ["-i", "--intro"]:
+            args['intro'] = val
+        elif opt in ["-t", "--template"]:
+            args['template'] = val
+        elif opt in ["-h", "--help"]:
+            usage("Help for this script")
+
+    if len(remainder) > 0:
+        usage("Unknown option(s) specified: <%s>" % remainder[0])
+    if not os.path.exists(args['topicsdir']):
+        usage("topics dir specified does not exist or is inaccessible")
+    if not os.path.exists(args['intro']):
+        usage("intro html file specified does not exist or is inaccessible")
+    if not os.path.exists(args['template']):
+        usage("template file specified does not exist or is inaccessible")
+
+    return args
+
+
 def do_main():
     '''entry point'''
-    template = get_file_contents('QandA.templ')
-    intro = get_file_contents('Intro.html')
-    topics = yaml.safe_load(get_topic_contents('topics'))
+    args = get_args()
+    template = get_file_contents(args['template'])
+    intro = get_file_contents(args['intro'])
+    topics = yaml.safe_load(get_topic_contents(args['topicsdir']))
     put_html_header()
     put_intro(intro)
     for topic in topics:
