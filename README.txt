@@ -11,11 +11,14 @@ To use this very basic script, do the following:
   of yor choosing, number it according to where you want it shown
   in the output
 * make an html template for displaying a topic and its entries;
+  every sub-entry to be substituted in should use the name of the
+  sub-entry in the yaml file, like this: %(name-here)s  and no
+  more than one such sub-entry per line in the template file;
   you can use the default html/QandA.templ if you like
 * create some intro html text that will go after the body tag and
   before the topics in the output; html/Intro.html is what I use with
   the topics in the topics directory currently
-* if you want a fancy hmtl footer, make one, otherwise there is html/Footer.html
+* if you want a fancy html footer, make one, otherwise there is html/Footer.html
 * run:
     q_and_a.py -t path-to-template -i path-to-intro -d path-to-topicsdir \
         -f path-to-footer> new-html-file.html

@@ -5,6 +5,7 @@ and a formatting template for these, produce one page of html
 '''
 import os
 import sys
+import re
 import getopt
 import yaml
 
@@ -38,12 +39,26 @@ def put_topic_end():
     print('</dl>\n</details>\n')
 
 
-def put_entry(entry, templ):
+def put_entry(entry, templ, templ_keys):
     '''write out a question with formatting to stdout'''
-    print(templ % { "question": entry['question'],
-                    "answer": entry['answer'],
-                    "readings": entry['readings'],
-                    "exercises": entry['exercises']})
+    mapping = {}
+    for templ_key in templ_keys:
+        mapping[templ_key] = entry[templ_key]
+    print(templ % mapping)
+
+
+def get_template_keys(content):
+    '''
+    generate a list of all strings in the template
+    file with "%(string-here)s", and return it
+    '''
+    templ_keys = []
+    for line in content.split('\n'):
+        expr = r'%\(([^)]*)\)s'
+        result = re.search(expr, line)
+        if result:
+            templ_keys.append(result.group(1))
+    return list(set(templ_keys))
 
 
 def usage(message):
@@ -58,14 +73,15 @@ def usage(message):
 Usage: q_and_a.py [--dir <path>] [--template <path>] [--intro <path>]
                   [--footer <path>] |  --help
 
-This script takes a little pile of topics and their questions, answers, reading material
-links and excerises, and turns them into one html page for viewing.
+This script takes a little pile of topics and a list of questions and other
+items associated with each question such as reading links and exercises, and
+ turns them into one html  page for viewing.
 
 Arguments:
   --dir       (-d):  directory where topic files are located
                      default: ./topics
-  --tmeplate  (-t):  path to html template into which the text for each question, answer
-                     and so on will be inserted
+  --tmeplate  (-t):  path to html template into which the text for each question and related
+                     items will be inserted
                      default: ./QandA.templ
   --intro     (-i):  path to a file of introductory text, html formtted, which will be
                      written before the topic questions
@@ -80,8 +96,12 @@ Setup:
   and that the file names are numbered in the order you would like them to appear
   in the html output.
 
-  Any template you create for the output should have placeholders for the topic, question,
-  answer, readings and exercises keys for each set of entries.
+  The template used for each entry in a topic should have %(name-here)s in each
+  location where a string is to be substituted in from the yaml topic file, one
+  entry per line. This script will not properly process template files with more
+  than one such entry per line.
+
+   See QandA.templ for a sample template file.
 """
     sys.stderr.write(usage_message)
     sys.exit(1)
@@ -133,6 +153,7 @@ def do_main():
     '''entry point'''
     args = get_args()
     template = get_file_contents(args['template'])
+    keys = get_template_keys(template)
     topics = yaml.safe_load(get_topic_contents(args['topicsdir']))
 
     intro = get_file_contents(args['intro'])
@@ -141,7 +162,7 @@ def do_main():
     for topic in topics:
         put_topic_start(topic)
         for entry in topics[topic]:
-            put_entry(entry['entry'], template)
+            put_entry(entry['entry'], template, keys)
         put_topic_end()
 
     footer = get_file_contents(args['footer'])
