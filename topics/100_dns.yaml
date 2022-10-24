@@ -1,51 +1,56 @@
 DNS:
  - entry:
-     question: What is DNS?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is DNS?"
+     answer: "DNS, the Domain Name System, is a hierarchical, distributed service for the translation of hostnames to IP addresses and vice versa."
+     readings: '<a href="https://en.wikipedia.org/wiki/Domain_Name_System">Wikipedia article on DNS</a>, introduction and "Function" section'
+     exercises: "Why do you think a system of hostnames exists, rather than everyone relying on machine-readable addresses only? What might such an alternative look like?"
  - entry:
-     question: What is a name server?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is a name server?"
+     answer: "A host that responds to requests for lookup of hostnames or IP addresses."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Look up information on the web about a few popular public DNS servers. Why do people use them?"
  - entry:
-     question: What is an A record, an AAA record, a CNAME? What is a domain, a hostname? What is
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is a domain? What is a hostname? How about a fully qualified domain name?"
+     answer: "A domain is part or all of a hostname, starting from the right and including one or more strings joined by periods. A hostname is the name of any device on the network; it may or may not include all parts of the name of the domain to which it belongs.  A fully qualified domain name is the full name of any domain such that it can be looked up via DNS using that name. Example: the hostname dumps could designate a server belonging to any company or even a personally owned laptop; the name dumps.wikimedia.org falls under the TLD .org and the Wikimedia domain wikimedia.org; a DNS lookup for this name would get definitive data only from the Wikimedia nameservers or from DNS servers that have cached the same information."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Find the hostname of your laptop or desktop as it appears to you while using it; then check the name visible to others on the Internet when you are for example browsing the Web. You may find it useful to use https://myhostname.net/ or some similar service for that."
  - entry:
-     question: What is a recursive nameserver?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What are nslookup, dig?"
+     answer: "nslookup and dig are Unix/linux utilities for making DNS requests from the command line."
+     readings: '<a href="https://en.wikipedia.org/wiki/Nslookup">Wikipedia article on nslookup intro and Overview section</a>'
+     exercises: "Use dig and nslookup to find an IP address associated with en.wikipedia.org. How do their outputs differ?"
  - entry:
-     question: What is dnsmasq?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is a reverse lookup? What are zones, zone files?"
+     answer: "A reverse lookup is a request for the hostname associated with a specified IP addresses. A zone file is a list of all mappings from hostnames to IP addresses and vice versa for some specific domain."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Use dig to do the reserve lookup and see what hostname goes with the IP address you found above. Is it en.wikipedia.org? If not, why might that be the case?"
  - entry:
-     question: What is /etc/hosts, /etc/resolv.conf?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is a TLD (top level domain)?"
+     answer: "A domain consisting of a single string and starting with a period. Examples: .com, .org, .info"
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Determine the TLD for Wikimedia hostnames. Why did Wikimedia choose that domain?"
  - entry:
-     question: What is named, bind?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is DNS authoritative server? What is a root server?"
+     answer: "A DNS authoritative server handles DNS requests for entries in a specific zone covering some particular domain. A root server handles DNS requests for entries in the root zone, at the top of the DNS hierarchy."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Find the hostnames of the authoritative servers for the wikipedia.org domain."
  - entry:
-     question: What are nslookup, dig?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is an A record, an AAA record, a CNAME?"
+     answer: "An A record maps a hostname to an IPv4 address. An AAA record maps a hostname to an IPv6 address. A CNAME (Canonical Name) record maps one hostname (an alias) to another (the canonical name)."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Use dig or nslookup to get the CNAME record for dumps.wikimedia.org. Why don't we map the name directly to an IP address?"
  - entry:
-     question: What is a subdomain?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is a recursive nameserver, a caching nameserver?"
+     answer: "Recursive DNS servrs forward requests for which they do not have the information, up the tree of servers, and respond with the answer when it eventually arrives. Caching DNS servers keep local caches of maps between IP addresses and hostnames retrieved from elsewhere, expiring the entry in the cache in accordance with the upstream server's data about how long to keep entries for that domain."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: TBD
  - entry:
-     question: What is a reverse lookup? What are zones, zone files?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What is dnsmasq?"
+     answer: "DNS server software that provides DNS forwarding and caching, relatively lightweight, intended for use with smaller networks."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Look into how dnsmasq can be used as a simple sort of ad blocker for known advertising sites."
+ - entry:
+     question: "What are /etc/hosts, /etc/resolv.conf?"
+     answer: "/etc/hosts is a file on Unix-based systems which contains a list of hostnames and their associated IP addresses. It can contain mappings for hosts on a LAN, where no nameserver exists, or it can contain fallback information in the case that upstream nameservers are unavailable. /etc/resolv.conf is a text file on Unix-based systems which defines the default domain appended to hostnames when looking up their IP addresses, as well as a list of the IP addresses of nameservers to consult, in order."
+     readings: '<a href="https://en.wikipedia.org/wiki/To_be_announced">TBD</a>'
+     exercises: "Read and understand the /etc/resolv.conf and /etc/hosts files on your laptop/desktop, or on some instance in deployment-prep."
