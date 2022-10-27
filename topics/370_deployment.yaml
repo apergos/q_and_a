@@ -1,19 +1,19 @@
 Deployment:
  - entry:
-     question: What is scap?
-     answer: stuff
+     question: "What is the deployment host?"
+     answer: "The server in the production cluster from which we do deployment of MediaWiki, its configuration files and its extensions. You can use a handy service name to get to the right host at any time: deployment.eqiad.wmnet"
      readings: stuff
-     exercises: stuff
+     exercises: "What do you think happens with the resolution of the service name if codfw is the active datacenter? "
  - entry:
-     question: What is the deployment host?
-     answer: stuff
+     question: "What is scap?"
+     answer: "Scap, which once stood for 'sync-common-all-php' and now has no connection to that old collection of scripts, is a python script used for deployment of MediaWiki, its confuguration and extensions, and various other software. It can pull an entire repo to a specific host, push a single file or multiple files out to a set of hosts, or push an entire repo out to a set of hosts. It uses rsync under the hood to accomplish this."
      readings: stuff
-     exercises: stuff
+     exercises: "What does 'scap' stand for now? Find a project unrelated to MediaWiki that uses scap."
  - entry:
-     question: What are mwdebug servers?
-     answer: stuff
-     readings: stuff
-     exercises: stuff
+     question: "What are mwdebug servers?"
+     answer: "These are MediaWiki application servers that serve Wikimedia wiki projects, which can return detailed debugging information to a web browser when chosen for use by the Wikimedia-debug browser extension for Firefox or Chrome."
+     readings: 'the wikitech page for the <a href="https://wikitech.wikimedia.org/wiki/Mwdebug">mwdebug</a> hosts and for the associated <a href="https://wikitech.wikimedia.org/wiki/WikimediaDebug">browser extension</a>.'
+     exercises: 'Download the Wikimedia-debug extension and install it for either Firefox or Chrome. Select one of the ad-hoc testing mwdebug servers from the <a href="https://wikitech.wikimedia.org/wiki/Mwdebug">list</a> in the extension, turn it on, select Inline Profiling, and then go to <a href="view-source:https://en.wiktionary.org/wiki/nerf">this page</a> in the same tab/window. Once the page has loaded, look at the html source for the page in the browser and see what is at the end.'
  - entry:
      question: What is Zuul?
      answer: stuff
