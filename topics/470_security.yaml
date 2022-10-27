@@ -1,96 +1,101 @@
 Security:
  - entry:
-     question: What is social engineering?
-     answer: stuff
+     question: "What is malware?"
+     answer: "Software intended to cause harm to a user's system, or to gain unauthorized access to that system or others for ill purposes."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is phishing?
-     answer: stuff
+     question: "What is an exploit?"
+     answer: "Software that exploits a loophole or bug to gain unauthorized access or privileges, to run commands or access data that otherwise should be inaccessible."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is spam?
-     answer: stuff
+     question: "What is a rootkit?"
+     answer: "A software package that uses one or more exploits to try to gain superuser (root) privileges on a system."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a CVE, a 0-day attack?
-     answer: stuff
+     question: "What is social engineering?"
+     answer: "Using information about people to get them to reveal credentials or other data that can be used by someone to access things they should not have access to. These can include credit cards, bank accounts, work computer accounts, and so on."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is pen testing?
-     answer: stuff
+     question: "What is phishing?"
+     answer: "The act of trying to get sensitive or private information from people by interacting with them. This could be by phone, email, in person or a combination of these and other means."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a cross-site scripting (XSS) vulnerability?
-     answer: stuff
+     question: "What is spam?"
+     answer: "Junk email, whether intended to scam the recipient or not. Unsolicited advertisements, requests for financial assistance, get rich quick offers, all of these are spam."
+     readings: stuff
+     exercises: "Investigate where this use of the term 'Spam' comes from."
+ - entry:
+     question: "What is a CVE, a 0-day attack?"
+     answer: "A CVE is a 'common vulnerability or exposure', a bug that can be used for unauthorized access or to cause harm to a system, given an entry in a central list where anyone can find out about the bug and how to mitigate it. A 0-day attack or 0-day exploit is an attack using a bug that is unknown to the vendor at the time of the attack."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is SQL injection?
-     answer: stuff
+     question: "What is a pass phrase?"
+     answer: "A sequence of words, often randomly chosen, that is used to verify one's identity."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a buffer overrun?
-     answer: stuff
+     question: "What is a dictionary attack? What is a salt?"
+     answer: "A dictionary attack runs through a long list of words or phrases (a 'dictionary') trying each one in turn as a password, in order to gain access to a system or resource. A dictionary attack can also be used for passwords saved in a hashed form, if the hash algorithm is known; in this case, the attacker tries each entry in the dictionary and applies the hash to it, comparing that to the saved hashed password. A salt is extra data, randomly chosen, that is added to the password before it is hashed and recorded, to foil this type of attack."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a threat matrix, risk assessment?
-     answer: stuff
+     question: "What contributes to a strong password, a weak one?"
+     answer: "Using more characters rather than fewer; avoiding strings of characters that spell words, or words with certain letters swapped for numbers such as 'passw0rd', or common phrases or idoms. Using characters that include capital and small letters, punctuation and other special symbols is better than using only small letters. Avoiding the use of personal information that someone else could discover, such as birthdays of a family member or loved one, also helps."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is malware?
-     answer: stuff
+     question: "What is information entropy and how is it related to password strength?"
+     answer: "Information entropy is a measure of how much randomness data has, or alternatively, how predictable data is from looking at a piece of it. Passwords are stronger if they have higher entropy, being harder to guess even when some of the characters are known."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a rootkit?
-     answer: stuff
+     question: "What is a password manager?"
+     answer: "An application that keeps track of the passwords you use for various sites and services, so that you need only memorize the password for access to the password manager and none of the rest."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a dictionary attack? What is a salt?
-     answer: stuff
+     question: "What is a firewall?"
+     answer: "A device or an application that restricts which software has access to which services. It can limit incoming or outgoing connections or both."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a firewall?
-     answer: stuff
+     question: "What is iptables?"
+     answer: "iptables is a linux command line utility for deciding how to handle network packets of any sort based on port, packet type, remote hostname and many other things."
      readings: stuff
      exercises: stuff
  - entry:
      question: What is ferm?
-     answer: stuff
+     answer: "An application that reads a config file with firewall rules and feeds them to iptables; typically the rules in the cnfig file are meach esier to dcompose than raw iptables rules."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is iptables?
-     answer: stuff
+     question: "What is pen testing?"
+     answer: "Pen testing (penetration testing) is an authorized planned set of attempts to gain unauthorized access to systems, either by a dedicated team within the same organization or by outside consultants, with the goal of uncovering weak points, security lapses, and so on."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is a pass phrase?
-     answer: stuff
+     question: "What is a threat matrix, risk assessment?"
+     answer: "Security policy is always a tradeoff between a system's security and the convenience of the users that access and use that system. Deciding where to strike that balance means making policy decisions, based on a clear understanding of the risks of each choice (risk assessment). A threat matrix helps to formalize this; it is a table typically listing the possible bad actors, the actions they might take, what they are hoping to achieve, the likelihood of being targeted by such an actor, and the consequences of such an attack succeeding."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What is entropy?
-     answer: stuff
+     question: "What is a cross-site scripting (XSS) vulnerability?"
+     answer: "One of the most common types of web site vulnerabilities, cross-site scripting involves getting the user to download and run malicious javascript or other cient-side code in their browser without being aware of it.  This malicious code can be used to access all cookies, hijack user sessions, potentially access the user's webcam or mic, and many other things."
      readings: stuff
      exercises: stuff
  - entry:
-     question: What contributes to a strong password, a weak one?
-     answer: stuff
+     question: "What is SQL injection?"
+     answer: "SQL injection, which can happen when user input that will be used in an SQL query is not properly validated, typically involves sticking arbitrary sql on the end of some field, which is executed when the field is substituted into the remote application's query. This could be used to get sensitive data from database tables, alter table contents, or even erase data."
      readings: stuff
-     exercises: stuff
+     exercises: 'Read and understand this comic: <a href="https://xkcd.com/327/">Exploits of a Mom (XKCD)</a>'
  - entry:
-     question: What is a password manager?
-     answer: stuff
+     question: "What is a buffer overrun?"
+     answer: "A buffer overrun, one of the most common sources of exploits, is what happens when a program allocates a certain amount of memory for an item, and then writes the item into that memory without checking if the item actually fits into the memory allocated or not."
      readings: stuff
      exercises: stuff
