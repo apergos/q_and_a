@@ -1,0 +1,51 @@
+REST:
+ - entry:
+     question: "What is REST in reference to web APIs?"
+     answer: "REST stands for Representational State Transfer, and describes a set of constraints on interactions between clients and servers on the internet, typically on the web, intended to keep things simple, reliable and scalable."
+     readings: 'Videos: <a href="https://www.youtube.com/watch?v=Q-BpqyOT3a8">What is a RESTful API?</a> and <a href="https://www.youtube.com/watch?v=ROVI2G8eH78">Effective Design of RESRful APIs</a>'
+     exercises: ""
+ - entry:
+     question: "What are the REST design principles?"
+     answer: "Client-server separation of concerns, meaning that user interface decisions should be handled by the client end and data storage should be handled by the server; the interactions should be stateless on the server side, and all information needed for the response to the next request should be contained in the request itself; all resonses must be marked as cacheable or not, as appropriate, with cacheable content being cacheable by the client or by an intermediate CDN; The atchitecture should permit intermediaries handling or passing on requests and responses between the client and server, with that being transparent to both ends; in cases where code to execute such as a java applet may be returned by the server, the code must only run on demand."
+     readings: ''
+     exercises: ""
+ - entry:
+     question: "How does HTTP facilitate the implementation of RESTful interfaces?"
+     answer: "Each type of operation (read, add, update, remove) is handled by a separate type of request (GET, POST, PUT, DELETE); Cachability can be indicated by using the Cache-Control HTTP header; every resource is requested via a URI, and so handling could be uniform for every resource."
+     readings: ''
+     exercises: ""
+ - entry:
+     question: "WHat is an example of a non-RESTful API?"
+     answer: "Any API that uses cookies to change server behaviour, or keeps server-side session state; any API that uses some query parameters for the HTTP GET request for some resources that it serves and not for others."
+     readings: ''
+     exercises: ""
+ - entry:
+     question: "What is an example of a RESTful API??"
+     answer: '<a href="https://en.wikipedia.org/api/rest_v1/">The MediaWiki REST API</a> insofar as it returns hypertext results. See <a href="https://www.mediawiki.org/wiki/Core_Platform_Team/Initiatives/Core_REST_API_in_MediaWiki">The Core REST API Initiative docs</a> for more about this.'
+     readings: ''
+     exercises: ""
+ - entry:
+     question: 'Is the MediaWiki action API (<a href="https://www.mediawiki.org/w/api.php">link</a>)) RESTful? Why or why not?'
+     answer: "No. It uses different query parameters for different modules rather than having a uniform interface, and it uses sessions and user cookies to look up state."
+     readings: ''
+     exercises: ""
+ - entry:
+     question: "How can authentication be done on the web in a RESTful way?"
+     answer: "OAuth2 using JWTs can be stateless, as the verification of these web tokens depends solely on the token itself."
+     readings: ''
+     exercises: ""
+ - entry:
+     question: "How does a client locate a resource when using a RESTful API?"
+     answer: "A client will be informed about the existence of other resources in the content retrieved from the top level resource; it can then use these to navigate further if desired. For the web, this would mean that all resources are described in hypertext."
+     readings: ''
+     exercises: ""
+ - entry:
+     question: "What is CRUD in relation to web APIs?"
+     answer: "CRUD stands for create, read, update and delete. These are the four operations that an API for access to resources should support. The corresponsing HTTP methods are POST for create, GET for read, PUT for update and DELETE for delete. In practce, web-based APIs often only support creation, reading and updating, and those often only via GET and POST."
+     readings: 'See the <a href=https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">Wikiedpai article</a>"'
+     exercises: 'Read and critique <a href="https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a">What’s Wrong With Your CRUD APIs</a>'
+
+
+
+
+
