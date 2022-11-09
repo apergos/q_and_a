@@ -44,6 +44,21 @@ REST:
      answer: "CRUD stands for create, read, update and delete. These are the four operations that an API for access to resources should support. The corresponsing HTTP methods are POST for create, GET for read, PUT for update and DELETE for delete. In practce, web-based APIs often only support creation, reading and updating, and those often only via GET and POST."
      readings: 'See the <a href=https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">Wikiedpai article</a>"'
      exercises: 'Read and critique <a href="https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a">What’s Wrong With Your CRUD APIs</a>'
+ - entry:
+     question: "What is an API endpoint? What sort of language should be used for RESTful API endpoints? Why is that?"
+     answer: "An endpoint is the specific location where a call to the API goes; for the web, this would be the part of the url that describes where to send a request for some specific resource. Endpoints describe resources, rather than methods, so they should be nouns. And they should be nouns related to the resources being retrieved."
+     readings: 'See the <a href="https://restfulapi.net/resource-naming/">REST resource naming guide</a> for more.'
+     exercises: "If we want to retrieve pages and revisions from MediaWiki using a RESTful API, how might we choose our endpoint names?"
+ - entry:
+     question: "When should you introduce security considerations into the design of a RESTful API? What might those look like?"
+     answer: "From the very start. You authentication methods should work within a RESTful API framework, rather than adding complexity on top of it. You'll need to look at authorization for various actions too; not everyone can read all revisions from a wiki, for example."
+     readings: 'See this article on <a href="https://restfulapi.net/security-essentials/">REST and security</a>.'
+     exercises: ''
+ - entry:
+     question: "How does the principle of least astonishment apply to RESTful API design?"
+     answer: "API users expect consistency; use the same name for the same concept everywhere (page or article but not both); use the same adjective for the same transformation everywhere (sort or order but not both); similar actions should have similar behaviour."
+     readings: 'See the Wikipedia article: <a href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment">Principle of least astonishment</a>'
+     exercises: ''
 
 
 
